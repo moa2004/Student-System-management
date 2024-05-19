@@ -202,6 +202,7 @@ const vector<string> Student::validMajors = {"AI", "CS", "Data Science"};
 
 int main() {
     cout << "Welcome to Student Management System\n";
+    cout << "---------------------------------------------------\n";
 
     University uni;
     uni.enterInfo();
@@ -259,11 +260,12 @@ int main() {
                 cout << "\nInvalid choice. Please enter a valid option.\n";
                 break;
         }
+
+        cout << "-------------------------------------------------\n";
     }
 
     return 0;
 }
-
 
 
 
